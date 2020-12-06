@@ -309,13 +309,12 @@ letter-spacing: 0.03em;
     padding-bottom: 94px;  
 }
 
-.team .clause:not(:first-child){
-    margin-left: 30px;    
+.clause{
+    width: 270px;
 }
 
-.clause{   
-background: url(2968.jpg);
-border-radius: 0px;
+.team .clause:not(:first-child){
+    margin-left: 30px;    
 }
 
 .our-team-title{
@@ -330,7 +329,15 @@ border-radius: 0px;
     
 }
 
-.team .information{
+.information{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+ .team .information {  
     text-align: center;
     background: var(--background);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -342,32 +349,30 @@ border-radius: 0px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-
-    text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: center;
+    
     margin-bottom: 10px;
 }
 
-.information .content{
-   
+.information .content{   
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 
 text-align: center;
 letter-spacing: 0.03em;
-    padding-bottom: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    
     }
     
 .project-demonstration{
-    background-color: var(--background);
+    background-color: var(--background);    
+}
+
+.work-example{
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .example .item{
@@ -391,18 +396,16 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 } 
 
-.text .title{
+.text{
     padding-top: 20px;
-    padding-right: 24px;
-    padding-left: 24px;    
-    margin-bottom:4px;
-}
-
-.text .content{
     padding-bottom:20px;
     padding-right: 24px;
-    padding-left: 24px;
+    padding-left: 24px;    
 
+}
+
+.text .title{    
+    margin-bottom:4px;
 }
 
 .container .example{
@@ -434,13 +437,17 @@ box-sizing: border-box;
     margin-bottom: 20px;
 }
 
+address{
+    margin-top: 20px;
+    
+}
+
 .location{
     color: var(--title-accent);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
-    margin-top: 20px;
+    letter-spacing: 0.03em;    
     margin-bottom: 9px;    
 } 
 
