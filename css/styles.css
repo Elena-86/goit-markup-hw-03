@@ -64,6 +64,8 @@ address{
     margin-right: auto;
     margin-left: auto;    
 }
+
+.filter-container,
 .container-bottom{
     display: block;
     width: 1200px;
@@ -73,6 +75,16 @@ address{
     margin-left: auto;    
 
 } 
+
+.example-container{
+    display: block;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;    
+    margin-left: auto;    
+
+}
 
 
 .back{
@@ -370,7 +382,7 @@ letter-spacing: 0.03em;
 }
 
 .work-example{
-    padding-top: 100px;
+    padding-top: 94px;
     padding-bottom: 94px;
 
 }
@@ -495,7 +507,7 @@ address{
 
 }
 .filter .item{
-    margin-left: 30px;
+    margin-left: 8px;
 }
 .filter .item:first-child{
     margin-left: 0px;
